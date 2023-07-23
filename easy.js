@@ -61,8 +61,8 @@ import { aritGeo } from "./easy/19_aritGeo.js";
 
 import { arrayAddition } from "./easy/20_arrayAddition.js";
 
-console.log(arrayAddition([2, 3, 16, 5, 6]));
+// console.log(arrayAddition([2, 3, 16, 5, 6]));
 
 import { letterCount } from "./easy/21_letterCount.js";
 
-// console.log(letterCount("today ever right"));
+console.log(letterCount("Today, ever Right?"));
