@@ -65,4 +65,8 @@ import { arrayAddition } from "./easy/20_arrayAddition.js";
 
 import { letterCount } from "./easy/21_letterCount.js";
 
-console.log(letterCount("Today, ever Right?"));
+//console.log(letterCount("Today, ever Right?"));
+
+import { secondGreatLow } from "./easy/22_secondGreatLow.js";
+
+console.log(secondGreatLow([1, 2, 2, 9, 10, 3, 5]));
