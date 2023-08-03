@@ -69,4 +69,8 @@ import { letterCount } from "./easy/21_letterCount.js";
 
 import { secondGreatLow } from "./easy/22_secondGreatLow.js";
 
-console.log(secondGreatLow([1, 2, 2, 9, 10, 3, 5]));
+//console.log(secondGreatLow([1, 2, 2, 9, 10, 3, 5]));
+
+import { divisionStringfy } from "./easy/23_divisionStringied.js";
+
+console.log(divisionStringfy(24321123, 4));
