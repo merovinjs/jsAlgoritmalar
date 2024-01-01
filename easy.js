@@ -73,4 +73,8 @@ import { secondGreatLow } from "./easy/22_secondGreatLow.js";
 
 import { divisionStringfy } from "./easy/23_divisionStringied.js";
 
-console.log(divisionStringfy(24321123, 4));
+//console.log(divisionStringfy(24321123, 4));
+
+import { countMinutes } from "./easy/24_countMinutes.js";
+
+console.log(countMinutes("10:00am-9:00am"));
