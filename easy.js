@@ -77,4 +77,13 @@ import { divisionStringfy } from "./easy/23_divisionStringied.js";
 
 import { countMinutes } from "./easy/24_countMinutes.js";
 
-console.log(countMinutes("10:00am-9:00am"));
+//console.log(countMinutes("10:00am-9:00am"));
+
+import { diognalDiffrence } from "./easy/13_diagonalDifference.js";
+console.log(
+  diognalDiffrence([
+    [1, 2, 3],
+    [4, 5, 6],
+    [7, 8, 19],
+  ])
+);

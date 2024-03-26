@@ -1,9 +1,9 @@
 export const countMinutes = (time) => {
   //9:00am
+  //time example "10:00am-9:00am"
   const times = time.split("-");
   let time1 = {};
   let time2 = {};
-
   time1.meridien = times[0].slice(-2);
   time1.hour = parseInt(times[0].split(":")[0]);
   time1.minute = parseInt(times[0].slice(-4, -2));
@@ -22,6 +22,6 @@ export const countMinutes = (time) => {
     minute = time2.hour * 60 + time2.minute + 24 * 60 - time1.hour * 60 - time1.minute;
     result = 12 * 60 + minute;
   }
-
+  console.log(time1);
   return result;
 };
